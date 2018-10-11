@@ -1,0 +1,490 @@
+前言
+
+通過接觸新聞和社交媒體，
+你可能已經意識到這個事實
+機器學習已經成為一種
+我們這個時代最令人興奮的技術。
+
+大公司，如穀歌，Facebook，蘋果，亞馬遜和IBM，
+大力投資機器學習研究
+和有充分理由的申請。
+
+雖然看起來機器學習已成為我們時代的流行語，
+這肯定不是一種時尚。
+
+這個令人興奮的領域開闢了通向新的可能性
+並已成為我們日常生活中不可或缺的一部分。
+
+這與我們智能手機上的語音助手交談很明顯，
+為我們的客戶推薦合適的產品，
+防止信用卡欺詐，
+過濾掉我們的電子郵件收件箱中的垃圾郵件，
+檢測和診斷醫學疾病，
+清單一直在繼續。
+
+如果你想成為一名機器學習從業者，
+一個更好的問題解決者，
+或者甚至考慮從事機器學習研究，
+那麼這本書適合你。
+
+但是，對於新手來說，
+機器學習背後的理論概念可能非常龐大。
+
+近年來出版了許多實用書籍，通過實施強大的學習算法，幫助您開始機器學習。
+
+接觸實際的代碼示例並通過機器學習的示例應用程序是深入了解這一領域的好方法。
+
+具體的例子通過將學到的材料直接付諸實踐來幫助說明更廣泛的概念。
+
+但是，請記住，強大的力量帶來了巨大的責任！
+除了使用Python編程語言和基於Python的機器學習庫提供機器學習的實踐經驗，
+本書介紹了機器學習算法背後的數學概念，
+這對於成功使用機器學習至關重要。
+
+因此，這本書不同於純粹的實用書籍;
+這本書討論了有關機器學習概念的必要細節
+並提供機器學習算法如何工作的直觀而翔實的解釋，
+如何使用它們，
+最重要的是，
+如何避免最常見的陷阱。
+
+目前，如果您在Google學術搜索中鍵入“機器學習”作為搜索詞，
+它返回了絕大多數的出版物 - 1,800,000。
+
+當然，我們不能討論所有不同算法的細節
+和過去60年來出現的應用程序。
+
+但是，在這本書中，
+我們將踏上激動人心的旅程
+涵蓋所有基本主題和概念
+在這個領域給你一個良好的開端。
+
+如果你發現你對知識的渴望不滿意，
+這本書引用了許多有用的資源
+這可以用來跟進這一領域的重大突破。
+
+如果您已經詳細研究了機器學習理論，本書將向您展示
+如何將您的知識付諸實踐。
+
+如果您以前使用過機器學習技巧
+並希望更深入地了解機器學習的實際工作方式，
+這本書適合你。
+
+如果您對機器學習領域全新，請不要擔心;
+你有更多的理由感到興奮。
+
+這是一個承諾，機器學習將改變你想要解決的問題的方式
+並將向您展示如何通過解鎖數據的力量來解決它們。
+
+在我們深入了解機器學習領域之前，
+讓我們回答你最重要的問題，
+
+“為什麼是Python？”
+
+答案很簡單：
+它功能強大但非常容易使用。
+
+Python已成為最流行的數據科學編程語言
+因為它讓我們忘記了編程的繁瑣部分
+並為我們提供了一個環境
+在那裡，我們可以快速記下我們的想法，並將概念直接付諸行動。
+
+我們作者，
+可以說，機器學習的研究使我們成為更好的科學家，思想家和問題解決者。
+
+在本書中，我們希望與您分享這些知識。
+
+通過學習獲得知識。
+
+關鍵是我們的熱情，
+真正掌握技能只能通過實踐來實現。
+
+前面的道路可能會偶爾顛簸，有些話題可能比其他議題更具挑戰性，
+但我們希望你能抓住這個機會，專注於獎勵。
+
+請記住，我們在一起旅行，
+在整本書中
+我們將為您的武器庫添加許多強大的技術
+這將有助於我們解決數據驅動方式中最棘手的問題。
+
+這本書涵蓋了什麼
+
+第1章 ，
+讓計算機具備從數據中學習的能力，
+向您介紹機器學習的主要子區域，以解決各種問題任務。
+ 
+此外，
+它討論了創建典型機器學習模型的基本步驟
+通過構建一條管道來指導我們完成以下章節。
+
+第2章 ，
+訓練簡單的機器學習算法進行分類，
+回到機器學習的起源
+並介紹了二元感知器分類器和自適應線性神經元。
+ 
+本章簡要介紹了模式分類的基本原理
+並著重於優化算法和機器學習的相互作用。
+
+第3章 ，
+機器學習分類器之旅使用scikit-learn，
+描述了用於分類的基本機器學習算法
+並提供實際的例子
+使用最受歡迎和最全面的開源機器學習庫之一：scikit-learn。
+
+第4章，
+構建良好的訓練集 - 數據預處理，
+討論瞭如何處理未處理數據集中最常見的問題，例如缺少數據。
+ 
+它還討論了幾種識別數據集中信息量最大的特徵的方法
+並教你如何準備不同類型的變量作為機器學習算法的正確輸入。
+
+第5章，
+通過降維來壓縮數據，
+描述了將數據集中的要素數量減少到較小集合的基本技術
+同時保留大部分有用和歧視性的信息。
+
+它討論了通過主成分分析降低降維的標準方法，並將其與監督和非線性轉換技術進行了比較。
+
+第6章，
+學習模型評估和超參數調整的最佳實踐，
+討論了估計預測模型性能的注意事項。
+
+此外，它還討論了衡量我們的模型和技術性能的不同指標，以微調機器學習算法。
+
+第7章 ，
+結合不同的模型進行集成學習，
+向您介紹有效組合多種學習算法的不同概念。
+
+它教你如何建立專家團體，以克服個別學習者的弱點，
+從而產生更準確和可靠的預測。
+
+第8章，
+將機器學習應用於情感分析，
+討論了將文本數據轉換為機器學習算法的有意義表示的基本步驟，以根據他們的寫作預測人們的意見。
+
+第9章，
+將機器學習模型嵌入到Web應用程序中，
+繼續前一章的預測模型，向您介紹使用嵌入式機器學習模型開發Web應用程序的基本步驟。
+
+第10章，
+使用回歸分析預測連續目標變量，
+討論了對目標和響應變量之間的線性關係進行建模的基本技術，以便在連續範圍內進行預測。在介紹了不同的線性模型之後，它還討論了多項式回歸和基於樹的方法。
+
+第11章，
+使用未標記的數據 - 聚類分析，
+將焦點轉移到機器學習的不同子區域，
+無監督學習。
+
+我們應用來自三個基本聚類算法族的算法來查找共享一定程度相似性的對象組。
+
+第12章，
+從Scratch實現多層人工神經網絡，
+擴展了基於梯度的優化的概念，
+我們在第2章首次介紹，
+訓練簡單的機器學習算法進行分類，
+基於Python中流行的反向傳播算法構建強大的多層神經網絡。
+
+第13章，
+使用TensorFlow並行化神經網絡訓練，
+基於前一章的知識，為您提供更有效地訓練神經網絡的實用指南。
+本章的重點是TensorFlow，這是一個開源Python庫，允許我們使用現代GPU的多個內核。
+
+第14章，
+更深入 - TensorFlow的力學，
+更詳細地介紹TensorFlow，解釋其計算圖和會話的核心概念。
+
+此外，本章還介紹了保存和可視化神經網絡圖等主題，這些內容在本書的其余章節中將非常方便。
+
+第15章，
+用深度卷積神經網絡對圖像進行分類，
+討論深度神經網絡架構
+已成為計算機視覺和圖像識別領域的新標準
+- 卷積神經網絡。
+
+本章將討論卷積層作為特徵提取器之間的主要概念
+並將捲積神經網絡架構應用於圖像分類任務
+達到近乎完美的分類精度。
+
+第16章，
+使用遞歸神經網絡建模順序數據，
+介紹了另一種深入學習的流行神經網絡架構
+這特別適合處理順序數據和時間序列數據。
+
+在這一章當中，
+我們將不同的遞歸神經網絡架構應用於文本數據。
+
+我們將從情緒分析任務開始，作為熱身練習
+並將學習如何生成全新的文本。
+
+
+=====================
+
+Preface
+
+Through exposure to the news and social media, 
+you are probably aware of the fact 
+that machine learning has become one 
+of the most exciting technologies of our time and age. 
+
+Large companies, such as Google, Facebook, Apple, Amazon, and IBM, 
+heavily invest in machine learning research 
+and applications for good reasons. 
+
+While it may seem that machine learning has become the buzzword of our time and age, 
+it is certainly not a fad. 
+
+This exciting field opens the way to new possibilities 
+and has become indispensable to our daily lives. 
+
+This is evident in talking to the voice assistant on our smartphones, 
+recommending the right product for our customers, 
+preventing credit card fraud, 
+filtering out spam from our email inboxes, 
+detecting and diagnosing medical diseases, 
+the list goes on and on.
+
+If you want to become a machine learning practitioner, 
+a better problem solver, 
+or maybe even consider a career in machine learning research, 
+then this book is for you. 
+
+However, for a novice, 
+the theoretical concepts behind machine learning can be quite overwhelming. 
+
+Many practical books have been published in recent years that will help you get started in machine learning by implementing powerful learning algorithms.
+
+Getting exposed to practical code examples and working through example applications of machine learning are a great way to dive into this field. 
+
+Concrete examples help illustrate the broader concepts by putting the learned material directly into action. 
+
+However, remember that with great power comes great responsibility! 
+In addition to offering a hands-on experience with machine learning using the Python programming languages and Python-based machine learning libraries, 
+this book introduces the mathematical concepts behind machine learning algorithms, 
+which is essential for using machine learning successfully. 
+
+Thus, this book is different from a purely practical book; 
+it is a book that discusses the necessary details regarding machine learning concepts 
+and offers intuitive yet informative explanations of how machine learning algorithms work, 
+how to use them, 
+and most importantly, 
+how to avoid the most common pitfalls.
+
+Currently, if you type "machine learning" as a search term in Google Scholar, 
+it returns an overwhelmingly large number of publications—1,800,000. 
+
+Of course, we cannot discuss the nitty-gritty of all the different algorithms 
+and applications that have emerged in the last 60 years. 
+
+However, in this book, 
+we will embark on an exciting journey 
+that covers all the essential topics and concepts 
+to give you a head start in this field. 
+
+If you find that your thirst for knowledge is not satisfied, 
+this book references many useful resources 
+that can be used to follow up on the essential breakthroughs in this field. 
+
+If you have already studied machine learning theory in detail, this book will show you 
+how to put your knowledge into practice. 
+
+If you have used machine learning techniques before 
+and want to gain more insight into how machine learning actually works, 
+this book is for you. 
+
+Don't worry if you are completely new to the machine learning field; 
+you have even more reason to be excited. 
+
+Here is a promise that machine learning will change the way you think about the problems you want to solve 
+and will show you how to tackle them by unlocking the power of data. 
+
+Before we dive deeper into the machine learning field, 
+let's answer your most important question, 
+
+"Why Python?" 
+
+The answer is simple: 
+it is powerful yet very accessible. 
+
+Python has become the most popular programming language for data science 
+because it allows us to forget about the tedious parts of programming 
+and offers us an environment 
+where we can quickly jot down our ideas and put concepts directly into action. 
+
+We, the authors, 
+can truly say that the study of machine learning has made us better scientists, thinkers, and problem solvers. 
+
+In this book, we want to share this knowledge with you. 
+
+Knowledge is gained by learning. 
+
+The key is our enthusiasm, 
+and the real mastery of skills can only be achieved by practice. 
+
+The road ahead may be bumpy on occasions and some topics may be more challenging than others, 
+but we hope that you will embrace this opportunity and focus on the reward. 
+
+Remember that we are on this journey together, 
+and throughout this book, 
+we will add many powerful techniques to your arsenal 
+that will help us solve even the toughest problems the data-driven way. 
+
+What this book covers
+
+Chapter 1 , 
+Giving Computers the Ability to Learn from Data, 
+introduces you to the main subareas of machine learning in order to tackle various problem tasks.
+ 
+In addition, 
+it discusses the essential steps for creating a typical machine learning model 
+by building a pipeline that will guide us through the following chapters.
+
+Chapter 2 , 
+Training Simple Machine Learning Algorithms for Classification, 
+goes back to the origins of machine learning 
+and introduces binary perceptron classifiers and adaptive linear neurons.
+ 
+This chapter is a gentle introduction to the fundamentals of pattern classification 
+and focuses on the interplay of optimization algorithms and machine learning.
+
+Chapter 3 , 
+A Tour of Machine Learning Classifiers Using scikit-learn, 
+describes the essential machine learning algorithms for classification 
+and provides practical examples 
+using one of the most popular and comprehensive open source machine learning libraries: scikit-learn. 
+
+Chapter 4 , 
+Building Good Training Sets – Data Preprocessing, 
+discusses how to deal with the most common problems in unprocessed datasets, such as missing data.
+ 
+It also discusses several approaches to identify the most informative features in datasets 
+and teaches you how to prepare variables of different types as proper input for machine learning algorithms.
+
+Chapter 5 , 
+Compressing Data via Dimensionality Reduction, 
+describes the essential techniques to reduce the number of features in a dataset to smaller sets 
+while retaining most of their useful and discriminatory information. 
+
+It discusses the standard approach to dimensionality reduction via principal component analysis and compares it to supervised and nonlinear transformation techniques. 
+
+Chapter 6 , 
+Learning Best Practices for Model Evaluation and Hyperparameter Tuning, 
+discusses the dos and don'ts for estimating the performances of predictive models. 
+
+Moreover, it discusses different metrics for measuring the performance of our models and techniques to fine-tune machine learning algorithms. 
+
+Chapter 7 , 
+Combining Different Models for Ensemble Learning, 
+introduces you to the different concepts of combining multiple learning algorithms effectively. 
+
+It teaches you how to build ensembles of experts to overcome the weaknesses of individual learners, 
+resulting in more accurate and reliable predictions. 
+
+Chapter 8 , 
+Applying Machine Learning to Sentiment Analysis, 
+discusses the essential steps to transform textual data into meaningful representations for machine learning algorithms to predict the opinions of people based on their writing. 
+
+Chapter 9 , 
+Embedding a Machine Learning Model into a Web Application, 
+continues with the predictive model from the previous chapter and walks you through the essential steps of developing web applications with embedded machine learning models.
+
+Chapter 10 , 
+Predicting Continuous Target Variables with Regression Analysis, 
+discusses the essential techniques for modeling linear relationships between target and response variables to make predictions on a continuous scale. After introducing different linear models, it also talks about polynomial regression and tree-based approaches. 
+
+Chapter 11 , 
+Working with Unlabeled Data – Clustering Analysis, 
+shifts the focus to a different subarea of machine learning, 
+unsupervised learning. 
+
+We apply algorithms from three fundamental families of clustering algorithms to find groups of objects that share a certain degree of similarity.
+
+Chapter 12 , 
+Implementing a Multilayer Artificial Neural Network from Scratch, 
+extends the concept of gradient-based optimization, 
+which we first introduced in Chapter 2, 
+Training Simple Machine Learning Algorithms for Classification, 
+to build powerful, multilayer neural networks based on the popular backpropagation algorithm in Python.
+
+Chapter 13 , 
+Parallelizing Neural Network Training with TensorFlow, 
+builds upon the knowledge from the previous chapter to provide you with a practical guide for training neural networks more efficiently. 
+The focus of this chapter is on TensorFlow, an open source Python library that allows us to utilize multiple cores of modern GPUs.
+
+Chapter 14, 
+Going Deeper – The Mechanics of TensorFlow, 
+covers TensorFlow in greater detail explaining its core concepts of computational graphs and sessions. 
+
+In addition, this chapter covers topics such as saving and visualizing neural network graphs, which will come in very handy during the remaining chapters of this book.
+
+Chapter 15 , 
+Classifying Images with Deep Convolutional Neural Networks, 
+discusses deep neural network architectures 
+that have become the new standard in computer vision and image recognition fields
+—convolutional neural networks. 
+
+This chapter will discuss the main concepts between convolutional layers as a feature extractor 
+and apply convolutional neural network architectures to an image classification task 
+to achieve almost perfect classification accuracy.
+
+Chapter 16 , 
+Modeling Sequential Data Using Recurrent Neural Networks, 
+introduces another popular neural network architecture for deep learning 
+that is especially well suited for working with sequential data and time series data. 
+
+In this chapter, 
+we will apply different recurrent neural network architectures to text data. 
+
+We will start with a sentiment analysis task as a warm-up exercise 
+and will learn how to generate entirely new text.
+
+=====================
+Preface
+
+Through exposure to the news and social media, you are probably aware of the fact that machine learning has become one of the most exciting technologies of our time and age. Large companies, such as Google, Facebook, Apple, Amazon, and IBM, heavily invest in machine learning research and applications for good reasons. While it may seem that machine learning has become the buzzword of our time and age, it is certainly not a fad. This exciting field opens the way to new possibilities and has become indispensable to our daily lives. This is evident in talking to the voice assistant on our smartphones, recommending the right product for our customers, preventing credit card fraud, filtering out spam from our email inboxes, detecting and diagnosing medical diseases, the list goes on and on.
+
+If you want to become a machine learning practitioner, a better problem solver, or maybe even consider a career in machine learning research, then this book is for you. However, for a novice, the theoretical concepts behind machine learning can be quite overwhelming. Many practical books have been published in recent years that will help you get started in machine learning by implementing powerful learning algorithms.
+
+Getting exposed to practical code examples and working through example applications of machine learning are a great way to dive into this field. Concrete examples help illustrate the broader concepts by putting the learned material directly into action. However, remember that with great power comes great responsibility! In addition to offering a hands-on experience with machine learning using the Python programming languages and Python-based machine learning libraries, this book introduces the mathematical concepts behind machine learning algorithms, which is essential for using machine learning successfully. Thus, this book is different from a purely practical book; it is a book that discusses the necessary details regarding machine learning concepts and offers intuitive yet informative explanations of how machine learning algorithms work, how to use them, and most importantly, how to avoid the most common pitfalls.
+
+Currently, if you type "machine learning" as a search term in Google Scholar, it returns an overwhelmingly large number of publications—1,800,000. Of course, we cannot discuss the nitty-gritty of all the different algorithms and applications that have emerged in the last 60 years. However, in this book, we will embark on an exciting journey that covers all the essential topics and concepts to give you a head start in this field. If you find that your thirst for knowledge is not satisfied, this book references many useful resources that can be used to follow up on the essential breakthroughs in this field. 
+
+If you have already studied machine learning theory in detail, this book will show you how to put your knowledge into practice. If you have used machine learning techniques before and want to gain more insight into how machine learning actually works, this book is for you. Don't worry if you are completely new to the machine learning field; you have even more reason to be excited. Here is a promise that machine learning will change the way you think about the problems you want to solve and will show you how to tackle them by unlocking the power of data. 
+
+Before we dive deeper into the machine learning field, let's answer your most important question, "Why Python?" The answer is simple: it is powerful yet very accessible. Python has become the most popular programming language for data science because it allows us to forget about the tedious parts of programming and offers us an environment where we can quickly jot down our ideas and put concepts directly into action. 
+
+We, the authors, can truly say that the study of machine learning has made us better scientists, thinkers, and problem solvers. In this book, we want to share this knowledge with you. Knowledge is gained by learning. The key is our enthusiasm, and the real mastery of skills can only be achieved by practice. The road ahead may be bumpy on occasions and some topics may be more challenging than others, but we hope that you will embrace this opportunity and focus on the reward. Remember that we are on this journey together, and throughout this book, we will add many powerful techniques to your arsenal that will help us solve even the toughest problems the data-driven way. 
+
+What this book covers
+
+Chapter 1 , Giving Computers the Ability to Learn from Data, introduces you to the main subareas of machine learning in order to tackle various problem tasks. In addition, it discusses the essential steps for creating a typical machine learning model by building a pipeline that will guide us through the following chapters.
+
+Chapter 2 , Training Simple Machine Learning Algorithms for Classification, goes back to the origins of machine learning and introduces binary perceptron classifiers and adaptive linear neurons. This chapter is a gentle introduction to the fundamentals of pattern classification and focuses on the interplay of optimization algorithms and machine learning.
+
+Chapter 3 , A Tour of Machine Learning Classifiers Using scikit-learn, describes the essential machine learning algorithms for classification and provides practical examples using one of the most popular and comprehensive open source machine learning libraries: scikit-learn. 
+
+Chapter 4 , Building Good Training Sets – Data Preprocessing, discusses how to deal with the most common problems in unprocessed datasets, such as missing data. It also discusses several approaches to identify the most informative features in datasets and teaches you how to prepare variables of different types as proper input for machine learning algorithms.
+
+Chapter 5 , Compressing Data via Dimensionality Reduction, describes the essential techniques to reduce the number of features in a dataset to smaller sets while retaining most of their useful and discriminatory information. It discusses the standard approach to dimensionality reduction via principal component analysis and compares it to supervised and nonlinear transformation techniques. 
+
+Chapter 6 , Learning Best Practices for Model Evaluation and Hyperparameter Tuning, discusses the dos and don'ts for estimating the performances of predictive models. Moreover, it discusses different metrics for measuring the performance of our models and techniques to fine-tune machine learning algorithms. 
+
+Chapter 7 , Combining Different Models for Ensemble Learning, introduces you to the different concepts of combining multiple learning algorithms effectively. It teaches you how to build ensembles of experts to overcome the weaknesses of individual learners, resulting in more accurate and reliable predictions. 
+
+Chapter 8 , Applying Machine Learning to Sentiment Analysis, discusses the essential steps to transform textual data into meaningful representations for machine learning algorithms to predict the opinions of people based on their writing. 
+
+Chapter 9 , Embedding a Machine Learning Model into a Web Application, continues with the predictive model from the previous chapter and walks you through the essential steps of developing web applications with embedded machine learning models.
+
+Chapter 10 , Predicting Continuous Target Variables with Regression Analysis, discusses the essential techniques for modeling linear relationships between target and response variables to make predictions on a continuous scale. After introducing different linear models, it also talks about polynomial regression and tree-based approaches. 
+
+Chapter 11 , Working with Unlabeled Data – Clustering Analysis, shifts the focus to a different subarea of machine learning, unsupervised learning. We apply algorithms from three fundamental families of clustering algorithms to find groups of objects that share a certain degree of similarity.
+
+Chapter 12 , Implementing a Multilayer Artificial Neural Network from Scratch, extends the concept of gradient-based optimization, which we first introduced in Chapter 2, Training Simple Machine Learning Algorithms for Classification, to build powerful, multilayer neural networks based on the popular backpropagation algorithm in Python.
+
+Chapter 13 , Parallelizing Neural Network Training with TensorFlow, builds upon the knowledge from the previous chapter to provide you with a practical guide for training neural networks more efficiently. The focus of this chapter is on TensorFlow, an open source Python library that allows us to utilize multiple cores of modern GPUs.
+
+Chapter 14, Going Deeper – The Mechanics of TensorFlow, covers TensorFlow in greater detail explaining its core concepts of computational graphs and sessions. In addition, this chapter covers topics such as saving and visualizing neural network graphs, which will come in very handy during the remaining chapters of this book.
+
+Chapter 15 , Classifying Images with Deep Convolutional Neural Networks, discusses deep neural network architectures that have become the new standard in computer vision and image recognition fields—convolutional neural networks. This chapter will discuss the main concepts between convolutional layers as a feature extractor and apply convolutional neural network architectures to an image classification task to achieve almost perfect classification accuracy.
+
+Chapter 16 , Modeling Sequential Data Using Recurrent Neural Networks, introduces another popular neural network architecture for deep learning that is especially well suited for working with sequential data and time series data. In this chapter, we will apply different recurrent neural network architectures to text data. We will start with a sentiment analysis task as a warm-up exercise and will learn how to generate entirely new text.
+
