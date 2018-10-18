@@ -116,7 +116,18 @@ array([[[[  0,   1,   2,   3,   4],     [[ 20,  21,  22,  23,  24],     [[ 40,  
          [ 70,  71,  72,  73,  74],      [ 90,  91,  92,  93,  94],       [110, 111, 112, 113, 114],
          [ 75,  76,  77,  78,  79]],     [ 95,  96,  97,  98,  99]],      [115, 116, 117, 118, 119]]]])
 
-        
+>>> from sklearn.linear_model import Perceptron
+>>> ppn = Perceptron(n_iter=40, eta0=0.1, random_state=0)
+>>> ppn.fit(X_train_std, y_train)     
+
+>>> y_pred = ppn.predict(X_test_std)
+>>> print('Misclassified samples: %d' % (y_test != y_pred).sum())
+Misclassified samples: 4   
+
+>>> from sklearn.metrics import accuracy_score
+>>> print('Accuracy: %.2f' % 
+...        accuracy_score(y_test, y_pred))
+### 0.91
         
         
         
